@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/server-api/server-api.iml" filepath="$PROJECT_DIR$/server-api/server-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-biz/server-biz.iml" filepath="$PROJECT_DIR$/server-biz/server-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-common/server-common.iml" filepath="$PROJECT_DIR$/server-common/server-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-dao/server-dao.iml" filepath="$PROJECT_DIR$/server-dao/server-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-sdk/server-sdk.iml" filepath="$PROJECT_DIR$/server-sdk/server-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-server.iml" filepath="$PROJECT_DIR$/web-server.iml" />
+    </modules>
+  </component>
+</project>
