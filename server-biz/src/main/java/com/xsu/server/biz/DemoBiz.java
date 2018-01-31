@@ -23,7 +23,7 @@ public class DemoBiz {
     public DemoDomain demoShow(String demo){
         DemoDomain domain=new DemoDomain();
         domain.setDemoId(DemoUtil.getCurrentTime());
-        domain.setDemoName("DemoBiz->"+demo+ DemoUtil.getCurrentTime());
+        domain.setDemoName("**<>DemoBiz->"+demo+ DemoUtil.getCurrentTime());
         List<Demo> demoList=demoDao.listAll();
         logger.info("demoList size:"+demoList.size());
         if(demoList!=null){

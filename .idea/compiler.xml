@@ -13,12 +13,12 @@
         <module name="server-sdk" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="server-api" target="1.8" />
-      <module name="server-biz" target="1.7" />
-      <module name="server-common" target="1.7" />
-      <module name="server-dao" target="1.7" />
-      <module name="server-sdk" target="1.7" />
+      <module name="server-biz" target="1.8" />
+      <module name="server-common" target="1.8" />
+      <module name="server-dao" target="1.8" />
+      <module name="server-sdk" target="1.8" />
       <module name="web-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
