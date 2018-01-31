@@ -24,7 +24,7 @@ public class DemoController {
 
         DemoDomain domain2=new DemoDomain();
         domain2.setDemoId(1L);
-        domain2.setDemoName("demoName");
+        domain2.setDemoName("demoName2");
 
         return domain2.toString();
     }

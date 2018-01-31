@@ -8,6 +8,7 @@
 
 package com.xsu.server.api;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,6 +22,7 @@ import java.util.Arrays;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.xsu.server")//配置扫描根路径
+@MapperScan(basePackages="com.xsu.server.dao")
 public class Application extends SpringBootServletInitializer{
 
     public static void main(String[] args) {
