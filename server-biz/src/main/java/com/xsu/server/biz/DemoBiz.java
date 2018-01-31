@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class DemoBiz {
+
     public DemoDomain demoShow(String demo){
         DemoDomain domain=new DemoDomain();
         domain.setDemoId(DemoUtil.getCurrentTime());

@@ -1,3 +1,11 @@
+/*
+* application文件
+* 1、可以设置controller的根扫描路径
+* 2、启动spring-boot
+*
+* */
+
+
 package com.xsu.server.api;
 
 import org.springframework.boot.CommandLineRunner;
@@ -18,10 +26,6 @@ public class Application extends SpringBootServletInitializer{
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
-//    @Override
-//    protected SpringApplicationBuilder configure(SpringApplicationBuilder application){
-//        return application.sources(Application.class);
-//    }
 
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {

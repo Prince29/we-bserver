@@ -5,22 +5,26 @@
     <parent>
         <artifactId>web-server</artifactId>
         <groupId>web-server</groupId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>server-api</artifactId>
     <dependencies>
-        <!--<dependency>
+        <!--配置模块间的依赖-->
+        <!--要正常运行项目，先把母项目install到本地maven的respository库，
+        idea默认在.m2文件夹内，再把子项目也install到本地maven的respository库，
+        不然无法运行，会报错说找不到依赖-->
+        <dependency>
             <groupId>web-server</groupId>
             <artifactId>server-biz</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>web-server</groupId>
             <artifactId>server-sdk</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
-        </dependency>-->
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
