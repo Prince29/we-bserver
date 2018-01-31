@@ -20,7 +20,6 @@
       <module name="server-dao" target="1.7" />
       <module name="server-sdk" target="1.8" />
       <module name="web-server" target="1.8" />
-      <module name="webserver" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

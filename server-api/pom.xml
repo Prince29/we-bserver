@@ -11,7 +11,7 @@
 
     <artifactId>server-api</artifactId>
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>web-server</groupId>
             <artifactId>server-biz</artifactId>
             <version>0.0.2-SNAPSHOT</version>
@@ -20,7 +20,7 @@
             <groupId>web-server</groupId>
             <artifactId>server-sdk</artifactId>
             <version>0.0.2-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <build>
