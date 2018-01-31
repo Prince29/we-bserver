@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-//    @Autowired
-//    private DemoBiz demoBiz;
+    @Autowired
+    private DemoBiz demoBiz;
 
     @RequestMapping("/demo")
     public String demo(){
-//        DemoDomain domain=demoBiz.demoShow("controller");
-//        System.out.println(domain);
+        DemoDomain domain=demoBiz.demoShow("controller");
+        System.out.println(domain);
 
         DemoDomain domain2=new DemoDomain();
         domain2.setDemoId(1L);
