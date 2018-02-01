@@ -29,9 +29,12 @@ public class DemoBiz {
         if(demoList!=null){
             for(Demo d:demoList){
                 logger.info("数据：{id:"+d.getRoleId()+",roleName:"+d.getRoleName()+"}");
-                System.out.println("数据");
             }
         }
+        System.out.println("数据");
         return domain;
+    }
+    public static void main(String[] args){
+        System.out.println("测试中文乱码");
     }
 }

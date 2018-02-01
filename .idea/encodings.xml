@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-biz" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server-biz/src/main/java/com/xsu/server/biz/DemoBiz.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-sdk" charset="UTF-8" />

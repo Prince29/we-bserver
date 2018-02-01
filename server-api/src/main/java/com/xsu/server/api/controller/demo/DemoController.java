@@ -19,7 +19,7 @@ public class DemoController {
     public String demo(){
         logger.info("this is demoController‘s logger");
         DemoDomain domain=demoBiz.demoShow("controller");
-        System.out.println(domain);
+        System.out.println("这里是Controller-"+domain);
 
 
         DemoDomain domain2=new DemoDomain();
@@ -27,5 +27,8 @@ public class DemoController {
         domain2.setDemoName("demoName2");
 
         return domain2.toString();
+    }
+    public static void main(String[] args){
+        System.out.println("测试中文乱码");
     }
 }
