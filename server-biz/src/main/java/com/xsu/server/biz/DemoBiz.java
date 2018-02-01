@@ -28,7 +28,8 @@ public class DemoBiz {
         logger.info("demoList size:"+demoList.size());
         if(demoList!=null){
             for(Demo d:demoList){
-                logger.info("{id:"+d.getRoleId()+",roleName:"+d.getRoleName()+"}");
+                logger.info("数据：{id:"+d.getRoleId()+",roleName:"+d.getRoleName()+"}");
+                System.out.println("数据");
             }
         }
         return domain;
