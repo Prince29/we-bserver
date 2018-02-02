@@ -31,7 +31,7 @@ public class DemoBiz {
                 logger.info("数据：{id:"+d.getRoleId()+",roleName:"+d.getRoleName()+"}");
             }
         }
-        System.out.println("数据");
+        System.out.println("这是数据啊");
         return domain;
     }
     public static void main(String[] args){
