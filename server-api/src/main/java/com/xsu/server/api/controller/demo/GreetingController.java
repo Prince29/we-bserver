@@ -24,7 +24,7 @@ public class GreetingController {
     @RequestMapping("/greeting2")
     public String greeting2(HttpServletRequest request, Model model) throws IOException {
         JSONObject json=RequestUtils.toJson(request);
-        System.out.println("this is greeting2,request:"+json==null?"":json.toJSONString());
+        System.out.println("this is greeting2,request:"+(json==null?"":json.toJSONString()));
         String name=request.getParameter("name");
         model.addAttribute("name",name);
         return "greeting2";
